@@ -53,3 +53,11 @@ console.log("CrazyDiff is:", crazyDiff(10, 20))
 */
 
 printTitle("Exercise 4")
+
+function boundary (n) {
+    if (n === 20 || n === 100 || n === 400 || n > 20 && n < 100) {
+    return "True"
+    }
+}
+
+console.log("Returning 'True' if the number is within 20 and 100 or if it's equal to 400:", boundary(99))
