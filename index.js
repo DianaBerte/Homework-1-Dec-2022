@@ -69,14 +69,15 @@ console.log("Returning 'True' if the number is within 20 and 100 or if it's equa
 
 printTitle("Exercise 5")
 
-function strivify(string) {
-    console.log(`${StringAsParameter}`);
-    if ("" + StringAsParameter) {
-        return "Strive" + StringAsParameter
+function strivify(string1) {
+    if (string1.word1 === "Strive") {
+        return string1;
+    } else {
+        return "Strive" + string1
     }
 }
 
-console.log("Test:", strivify("", string))
+console.log("Test:", strivify("else"))
 
 // don't know how to solve
 
